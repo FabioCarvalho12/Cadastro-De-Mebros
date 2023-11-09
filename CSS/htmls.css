@@ -1,0 +1,46 @@
+body {
+  background-image: url("../Imagem/depositphotos_165152942-stock-photo-motorcycle-driver-riding-in-alpine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+
+  #container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  h1, p {
+    color:  #1C6EA4;
+    text-align: center;
+  }
+
+  #success-message {
+    display: none;
+  }
+
+  #success-message img {
+    max-width: 100%;
+  }
+
+  a{
+display: inline-block;
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+text-decoration: none;
+border: 2px solid #333;
+border-radius: 5px;
+transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efeito de hover */
+a:hover {
+  color: #666;
+}

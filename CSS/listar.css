@@ -1,0 +1,103 @@
+/* Define um estilo padrão para todas as telas */
+/* Define uma imagem de fundo com uma moto no pôr do sol */
+body {
+  background-image: url("../Imagem/depositphotos_165152942-stock-photo-motorcycle-driver-riding-in-alpine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+/* Centraliza o título e muda a cor para branco */
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+/* Cria uma caixa branca com bordas arredondadas e sombra para a tabela */
+table {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Remove as bordas duplas da tabela */
+table {
+  border-collapse: collapse;
+}
+
+/* Define o estilo das células da tabela */
+td, th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Adiciona uma borda e uma sombra às células da tabela */
+td, th {
+  border: 1px solid #ccc;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* Define o estilo dos links da tabela */
+a {
+  display: block;
+  width: 50px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/* Define o estilo dos links da tabela ao passar o mouse */
+a:hover {
+  color: #666;
+}
+
+/* Define o estilo do link para voltar */
+a[href="index.html"] {
+  display: block;
+  width: 100px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+/* Adiciona um gradiente ao cabeçalho da tabela */
+th {
+  background: linear-gradient(to bottom, #5592bb, #327cad, #1C6EA4);
+}
+
+/* Adiciona um gradiente ao rodapé da tabela */
+tfoot td {
+   background: linear-gradient(to top, #5592bb, #327cad, #1C6EA4);
+}
+
+/* Define um estilo diferente para telas menores ou iguais a 600px */
+@media (max-width:600px) {
+
+   /* Reduz o tamanho da fonte e o espaçamento entre as células da tabela */
+   table, td, th {
+     font-size:12px; 
+     padding:5px; 
+   }
+}
+/* Permite a rolagem horizontal da div que contém a tabela se ela for muito larga para a tela */
+#tabela-responsiva {
+  display:block; 
+  width:100%; 
+  overflow-x:auto; 
+  -webkit-overflow-scrolling:touch;
+}
+
+/* Remove a propriedade overflow-x da tabela */
+#tabela-responsiva table {
+  width:100%; 
+}

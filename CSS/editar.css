@@ -1,0 +1,91 @@
+
+body {
+  background-image: url("../Imagem/depositphotos_165152942-stock-photo-motorcycle-driver-riding-in-alpine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+/* Centraliza o título e muda a cor para branco */
+h1 {
+  text-align: center;
+  color: rgb(12, 12, 12);
+}
+
+/* Cria uma caixa branca com bordas arredondadas e sombra para o formulário */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Alinha os elementos do formulário à esquerda e adiciona espaçamento entre eles */
+p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Define o tamanho e a cor dos rótulos dos campos */
+label {
+  width: 150px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Define o tamanho e o estilo dos campos de entrada */
+input, select, textarea {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Define o tamanho e a cor dos botões */
+input[type="submit"] {
+  width: 100px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  
+  
+}
+#voltar:hover{
+  color: #666;
+}
+
+/* Define o estilo do link para voltar */
+#voltar {
+  margin-left: 25px;
+  text-align: center;
+  width: 100px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+input:hover{
+  color: #666;
+}
